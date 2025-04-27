@@ -1,8 +1,9 @@
 name = "newsnow"
+type = "javascript"
 pages_build_output_dir = "dist/output/public"
 compatibility_date = "2024-10-03"
 
 [[d1_databases]]
 binding = "NEWSNOW_DB"
 database_name = "newsnow-db"
-database_id = ""
+database_id = "3ff92a35-93d7-4d1b-95fa-78ba36c9f9cd"
