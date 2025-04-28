@@ -11,6 +11,7 @@ export default defineSource(async () => {
     const a = $(el).find("a")
     const url = a.attr("href")!
     const title = a.text()
+    console.log(title);
     news.push({
       url,
       title,
