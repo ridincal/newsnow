@@ -2,7 +2,8 @@ import * as cheerio from "cheerio"
 import type { NewsItem } from "@shared/types"
 
 export default defineSource(async () => {
-  const baseURL = "http://news.smzdm.com/feed/"
+  console.log("haha")
+  const baseURL = "https://post.smzdm.com/hot_1/"
   const html: any = await myFetch(baseURL)
   const $ = cheerio.load(html)
   const $main = $("#feed-main-list .z-feed-title")
